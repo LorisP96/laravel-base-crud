@@ -15,6 +15,9 @@
             <li>
                 <a href="{{ route('comic.index') }}">Comics</a>
             </li>
+            <li>
+                <a href="{{ route('comic.create') }}">Crea</a>
+            </li>
         </ul>
     </header>
     @yield('main_content')
