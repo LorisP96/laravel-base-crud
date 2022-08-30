@@ -9,8 +9,8 @@
         <div class="comic">
             <h3>{{ $comic['title'] }}</h3>
             <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
-            <p>{{ $comic['description'] }}</p>
             <h4>{{ $comic['price'] }} $</h4>
+            <a href="{{ route('comic.show', ['comic' => $comic->id]) }}">Dettagli {{ $comic['type'] }}</a>
         </div>
         <br>
         <hr>
