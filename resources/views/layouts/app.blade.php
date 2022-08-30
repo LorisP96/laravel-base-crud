@@ -7,7 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <ul>
+            <li>
+                <a href="{{ route('home') }}">Home</a>
+            </li>
+            <li>
+                <a href="{{ route('comic.index') }}">Comics</a>
+            </li>
+        </ul>
+    </header>
     @yield('main_content')
 </body>
 </html>
