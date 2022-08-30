@@ -14,14 +14,14 @@
 
         <br>
         <div>
-            <label for="desc">Descrizione</label>
-            <textarea name="desc" id="" cols="30" rows="10" id="desc"></textarea>
+            <label for="description">Descrizione</label>
+            <textarea name="description" id="" cols="30" rows="10" id="description"></textarea>
         </div>
 
         <br>
         <div>
-            <label for="url">Url</label>
-            <input type="text" id="url" name="url">
+            <label for="thumb">Url</label>
+            <input type="text" id="thumb" name="thumb">
         </div>
 
         <br>
@@ -44,10 +44,11 @@
 
         <br>
         <div>
-            <label for="date">Data</label>
-            <input type="date" id="date" name="date">
+            <label for="sale_date">Data</label>
+            <input type="date" id="sale_date" name="sale_date">
         </div>
 
-        <button>Salva</button>
+        <br>
+        <input type="submit" value="Salva">
     </form>
 @endsection
