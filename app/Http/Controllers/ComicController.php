@@ -50,7 +50,7 @@ class ComicController extends Controller
         $new_comic->thumb = $form_data['thumb'];
         $new_comic->save();
 
-        dd('dato salvato');
+        return redirect()->route('comic.show', ['comic' => $new_comic->id]);
     }
 
     /**
